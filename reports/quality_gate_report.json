@@ -1,0 +1,31 @@
+{
+    "stage": "07 - Quality Gate",
+    "status": "PASSED",
+    "checks": {
+        "accuracy": {
+            "threshold": 0.75,
+            "actual": 0.7559,
+            "passed": true
+        },
+        "precision": {
+            "threshold": 0.5,
+            "actual": 0.5276,
+            "passed": true
+        },
+        "recall": {
+            "threshold": 0.7,
+            "actual": 0.7674,
+            "passed": true
+        },
+        "f1_score": {
+            "threshold": 0.6,
+            "actual": 0.6253,
+            "passed": true
+        },
+        "roc_auc": {
+            "threshold": 0.8,
+            "actual": 0.8433,
+            "passed": true
+        }
+    }
+}

@@ -1,0 +1,6 @@
+﻿paths:
+  model: "models/random_forest_baseline.pkl"
+  evaluation_report: "reports/evaluation_report.json"
+
+data:
+  processed_dir: "data/processed"
